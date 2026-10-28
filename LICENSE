@@ -1,0 +1,47 @@
+Mochi
+Copyright (c) 2026 thebitsworld. All rights reserved.
+
+"Mochi" means the Mochi firmware (source code and compiled builds), the Mochi character design,
+artwork, icons, sprites, animations, sounds, wake-word model and documentation published by
+thebitsworld, except the third-party components listed in THIRD_PARTY_NOTICES.md.
+
+No license is granted to copy, modify, merge, publish, distribute, sublicense, sell or otherwise use
+Mochi, in whole or in part, except:
+
+1. Personal, non-commercial use of official builds. You may download the official firmware builds
+   published by thebitsworld (for example at https://github.com/thebitsworld/mochi-firmware) and
+   install them on a device you own, for your own personal, non-commercial use. This includes the
+   over-the-air updates the firmware downloads by itself.
+
+2. Anything else - including any commercial use, selling devices with Mochi installed, offering
+   Mochi as a service, redistributing builds, modifying the firmware, or using the Mochi character
+   or artwork - requires prior written permission from thebitsworld.
+
+Third-party components. Mochi includes third-party components that are licensed under their own
+terms, listed in THIRD_PARTY_NOTICES.md with copies of their licenses in the "licenses" folder.
+Those terms govern those components, and nothing in this license limits the rights you have under
+them. In particular, for the parts of the Arduino-ESP32 core licensed under the GNU Lesser General
+Public License version 2.1, you may modify those parts for your own use and reverse engineer the
+firmware to the extent needed to debug such modifications, and thebitsworld will provide on request
+the object files of the Mochi application needed to relink it with a modified version of them.
+
+MOCHI IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THEBITSWORLD BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH MOCHI OR THE USE
+OR OTHER DEALINGS IN MOCHI.
+
+Contact for permissions: https://github.com/thebitsworld
+
+---
+
+Tóm tắt (tiếng Việt, chỉ để dễ đọc — bản tiếng Anh ở trên là bản có hiệu lực):
+- Bản quyền Mochi (firmware, mã nguồn, nhân vật, hình vẽ, âm thanh, mô hình "Hey Mochi", tài liệu)
+  thuộc thebitsworld, giữ mọi quyền.
+- Được: tải bản firmware chính thức và cài lên máy của mình để dùng cá nhân, không thương mại
+  (kể cả tự cập nhật qua mạng).
+- Không được nếu chưa có văn bản đồng ý của thebitsworld: dùng vào mục đích thương mại, bán máy cài
+  Mochi, phân phối lại, sửa firmware, dùng nhân vật / hình vẽ Mochi.
+- Thư viện bên thứ ba giữ giấy phép riêng (THIRD_PARTY_NOTICES.md); phần LGPL của core Arduino được
+  sửa cho riêng mình và liên kết lại — thebitsworld cung cấp file object khi được yêu cầu.
+- Không có bảo hành.
